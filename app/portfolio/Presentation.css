@@ -1,0 +1,36 @@
+.presentation {
+    margin: 0px;
+    width: 100%;
+    height: fit-content;
+    background-color: var(--primary-bg);
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 20px;
+}
+
+.presentation #profile {
+    border: 20px solid #1f9d84;
+    border-radius: 100%;
+}
+
+.presentation h2 {
+    font-size: 60px;
+}
+
+.presentation p {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1200px) {
+    .presentation {
+        padding-top: 110px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .presentation {
+        padding-top: 95px;
+    }
+}
